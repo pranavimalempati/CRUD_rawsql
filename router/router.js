@@ -9,6 +9,7 @@ router.get("/find/:id", Service.findById);
 router.put("/update", Service.update);
 router.delete("/delete/:id", Service.removeById);
 router.post("/findname", Service.findByName);
+router.post("/bulk", Service.bulk);
 
 
 
